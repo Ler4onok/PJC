@@ -200,15 +200,22 @@ bool trie::insert(const std::string &str) {
     return false;
 }
 
-trie_node *find_next(const trie_node *node, const char prev) {
-    for (const auto &child : node->children) {
-        if (!child) continue;
-        if (child->payload <= prev) continue;
-        return child->is_terminal ? child : find_next(child, STRING_END);
-    }
+trie_node *get_next(const trie_node *node, const char previous_node) {
+    // create new node
     trie_node* found_node;
+    // get node's children
+    for (const auto &child : node->children) {
+        if (child == nullptr || child->payload <= previous_node) continue;
+        // if this node is last return it
+        if (child->is_terminal){
+            return child;
+        }
+        else{
+            return get_next(child, STRING_END);
+        }
+    }
     if (node->parent){
-       found_node = find_next(node->parent, node->payload);
+       found_node = get_next(node->parent, node->payload);
     }
     else{
         found_node = nullptr;
@@ -230,10 +237,11 @@ trie::const_iterator trie::begin() const {
 
     while (true) {
         if (parent_node != nullptr){
+            //if this node has children set child
             if (parent_node->children[0] != nullptr) {
                 parent_node = parent_node->children[0];
             }
-
+            // the end of string found
             if (parent_node->is_terminal) {
                 break;
             }
@@ -269,29 +277,34 @@ trie::trie(const trie &rhs) {
 }
 
 trie &trie::operator=(trie &&rhs) {
-    
-    std::vector<trie_node *> to_del;
+    std::vector<trie_node *> nodes;
     std::stack<trie_node *> stack;
+    // add the first elem
     stack.push(m_root);
-    while (!stack.empty()) {
-        trie_node* curr = stack.top();stack.pop();
-        if (curr == nullptr)continue;
-        for (auto child : curr->children) {
-            if (child != nullptr){
+
+    while (stack.empty() == false) {
+        // get the first elem of array and delete it
+        trie_node* curr = stack.top(); stack.pop();
+
+//        if (!curr) continue;
+        for (trie_node* child : curr->children) {
+            if (child){
+                // add next node to array
                 stack.push(child);
             } 
         }
         
-        to_del.push_back(curr);
+        nodes.push_back(curr);
     }
-    for (auto r : to_del) {
-        delete r;
+    for (auto node : nodes) {
+        //free the memory
+        delete node;
     }
     
     m_root = rhs.m_root;
-    m_size = rhs.m_size;
-    
     rhs.m_root = nullptr;
+
+    m_size = rhs.m_size;
     rhs.m_size = 0;
     return *this;
 }
@@ -325,6 +338,14 @@ trie trie::operator|(trie const &rhs) const {
 }
 
 void trie::swap(trie &rhs) {
+    //get root
+    trie_node* root = m_root;
+    //change root value
+    m_root = rhs.m_root;
+    rhs.m_root = root;
+//    size_t currentSize = m_size;
+//    m_size = rhs.m_size;
+//    rhs.m_size = currentSize;
 }
 
 
@@ -337,42 +358,49 @@ bool operator<=(const trie &lhs, const trie &rhs) {
 }
 
 bool operator>(const trie &lhs, const trie &rhs) {
-    return false;
+    return rhs<lhs;
 }
 
 bool operator>=(const trie &lhs, const trie &rhs) {
-    return false;
+    bool result = lhs > rhs;
+    return result;
 }
 
 void swap(trie &lhs, trie &rhs) {
-
+    lhs.swap(rhs);
 }
 
 
 trie::const_iterator::const_iterator(const trie_node *node) {
+    // set node
     current_node = node;
 }
 
 trie::const_iterator &trie::const_iterator::operator++() {
-    current_node = find_next(current_node, STRING_END);
+    // move to 1 position get next node
+    current_node = get_next(current_node, STRING_END);
     return *this;
 }
 
 trie::const_iterator trie::const_iterator::operator++(int x) {
-    for (int i = 0; i < x + 1; ++i) {
-        current_node = find_next(current_node, STRING_END);
+    int counter = x + 1;
+    for (int i = 0; i < counter; ++i) {
+        // move to x position and find needed node
+        current_node = get_next(current_node, STRING_END);
     }
     return *this;
 }
 
 trie::const_iterator::reference trie::const_iterator::operator*() const {
-    std::string x;
+    std::string str;
     const trie_node* current = current_node;
-    while (current != nullptr && current->payload) {
-        x = current->payload + x;
+    // current can't be nullptr
+    while (current->payload) {
+        str = current->payload + str;
         current = current->parent;
     }
-    return x;
+
+    return str;
 }
 
 bool trie::const_iterator::operator==(const trie::const_iterator &rhs) const {
