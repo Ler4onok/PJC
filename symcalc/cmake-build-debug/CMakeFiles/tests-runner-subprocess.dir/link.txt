@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\tests-runner-subprocess.dir/objects.a
+C:\PROGRAMMES\mingw32\bin\ar.exe cr CMakeFiles\tests-runner-subprocess.dir/objects.a @CMakeFiles\tests-runner-subprocess.dir\objects1.rsp
+C:\PROGRAMMES\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\tests-runner-subprocess.dir/objects.a -Wl,--no-whole-archive  -o tests-runner-subprocess.exe -Wl,--out-implib,libtests-runner-subprocess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tests-runner-subprocess.dir\linklibs.rsp

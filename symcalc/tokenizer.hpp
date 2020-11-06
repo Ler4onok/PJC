@@ -2,6 +2,7 @@
 #include <iosfwd>
 #include <string>
 #include <cassert>
+#include <vector>
 
 enum class TokenId : char
 {
@@ -30,7 +31,7 @@ struct Token
     double number = 0.0;
     std::string identifier;
     //};
-
+    bool function=false;
     explicit Token(TokenId id) : id(id) {}
     Token(TokenId id, double number) : id(id), number(number) {
         assert(id == TokenId::Number);
@@ -40,6 +41,10 @@ struct Token
     }
     Token() : id(TokenId::End) {}
 
+    bool is_function() const ;
+    bool is_cos() const ;
+    bool is_sin() const ;
+    bool is_log() const ;
     bool is_binary_op() const;
     int op_precedence() const;
     Associativity associativity() const;
@@ -63,6 +68,7 @@ class Tokenizer
 public:
     explicit Tokenizer(std::istream &is);
     Token next();
+    std::vector<Token> create_prefix( std::vector<Token> token_array) ;
 private:
     std::istream &m_is;
 };

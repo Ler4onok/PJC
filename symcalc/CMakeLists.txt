@@ -18,7 +18,7 @@ set(COMMON_SOURCES
         app.cpp
         # Případné další soubory přidávejte sem
         # Funkce main musí být v souboru main.cpp, který se linkuje jen pro target symcalc
-        )
+      )
 
 # Soubory pro tests-direct
 set(TEST_SOURCES

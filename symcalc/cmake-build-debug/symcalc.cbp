@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="symcalc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symcalc">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/symcalc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 symcalc"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symcalc/fast">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/symcalc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 symcalc/fast"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-direct">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-direct"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-direct/fast">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-direct/fast"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-runner-subprocess">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-runner-subprocess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRUNNER"/>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-runner-subprocess"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-runner-subprocess/fast">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-runner-subprocess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRUNNER"/>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-runner-subprocess/fast"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-runner-direct">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-runner-direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRUNNER"/>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-runner-direct"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests-runner-direct/fast">
+				<Option output="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/tests-runner-direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRUNNER"/>
+					<Add directory="C:/Users/Ler4onok/Desktop/sym/sym/."/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/PROGRAMMES/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests-runner-direct/fast"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRAMMES/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Ler4onok/Desktop/sym/sym/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/app.cpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/app.hpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/cmdline.cpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/cmdline.hpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/expr.cpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/expr.hpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/expr_impl.cpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/expr_impl.hpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/main.cpp">
+			<Option target="symcalc"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/runner_direct.cpp">
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/runner_subprocess.cpp">
+			<Option target="tests-runner-subprocess"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/subprocess_windows.cpp">
+			<Option target="tests-runner-subprocess"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-cmdline.cpp">
+			<Option target="tests-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-expr-long.cpp">
+			<Option target="tests-runner-subprocess"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-expr.cpp">
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-subprocess"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-generated.cpp">
+			<Option target="tests-runner-subprocess"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-main.cpp">
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-subprocess"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-tokenizer.cpp">
+			<Option target="tests-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tests/tests-utils.cpp">
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-subprocess"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tokenizer.cpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/tokenizer.hpp">
+			<Option target="symcalc"/>
+			<Option target="tests-direct"/>
+			<Option target="tests-runner-direct"/>
+		</Unit>
+		<Unit filename="C:/Users/Ler4onok/Desktop/sym/sym/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
