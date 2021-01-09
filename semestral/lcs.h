@@ -3,16 +3,11 @@
 #include <iterator>
 #include <set>
 
-//#include <omp.h>
-
-//using std::size_t;
-
 namespace pjc {
 
     class lcs {
 
     private:
-
         std::set<std::string> dictionary;
 
     public:
@@ -20,8 +15,9 @@ namespace pjc {
 
         explicit lcs(std::istream&);
         std::tuple<std::string, int> check(const std::string&);
-        int get_lcs_of_2_strings(std::string s1, std::string s2);
-//
+        int get_lcs_of_2_strings(std::string str1, std::string str2);
+        int get_lcs_of_3_strings(std::string str1, std::string str2, std::string std3);
+
     };
 }
 
