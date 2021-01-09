@@ -1,0 +1,3 @@
+C:/Users/Ler4onok/Desktop/pjc/semestral/cmake-build-debug/CMakeFiles/longest-common-sub.dir
+C:/Users/Ler4onok/Desktop/pjc/semestral/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ler4onok/Desktop/pjc/semestral/cmake-build-debug/CMakeFiles/rebuild_cache.dir

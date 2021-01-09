@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ler4onok/Desktop/pjc/semestral/lcs.cpp
+lcs.h
+C:/Users/Ler4onok/Desktop/pjc/semestral/lcs.h
+iostream
+-
+vector
+-
+utility
+-
+algorithm
+-
+tuple
+-
+
+C:/Users/Ler4onok/Desktop/pjc/semestral/lcs.h
+cstddef
+-
+vector
+-
+iterator
+-
+set
+-
+
+C:/Users/Ler4onok/Desktop/pjc/semestral/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+tuple
+-
+lcs.h
+C:/Users/Ler4onok/Desktop/pjc/semestral/lcs.h
+
