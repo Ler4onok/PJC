@@ -42,7 +42,7 @@ namespace pjc {
         int len2 = str2.length();
 
         int LCS[len1+1][len2+1];
-
+    // find the LCS of 2 strings
         for(int i = 0; i<=len1; i++){
 
             for(int ii = 0; ii<=len2; ii++){
@@ -70,6 +70,7 @@ namespace pjc {
         int o = str3.length();
 
         int LCS[m+1][n+1][o+1];
+        // find the LCS of 3 strings
 
         for (int i=0; i<=m; i++)
         {
